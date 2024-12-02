@@ -1,0 +1,37 @@
+{
+  "name": "algjs",
+  "version": "0.0.0",
+  "description": "A collection of fundamental algorithm implementations in JavaScript.",
+  "type": "module",
+  "exports": {
+    "./binary-search": "./dist/binary-search.js"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "lint": "eslint .",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^9.16.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0",
+    "vitest": "^2.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casantosmu/algjs.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "algorithm",
+    "algorithms",
+    "binary search"
+  ],
+  "author": "Carlos Santos",
+  "license": "MIT"
+}
