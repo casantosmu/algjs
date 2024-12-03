@@ -4,7 +4,8 @@
   "description": "A collection of fundamental algorithm implementations in JavaScript.",
   "type": "module",
   "exports": {
-    "./binary-search": "./dist/binary-search.js"
+    "./binary-search": "./dist/binary-search.js",
+    "./selection-sort": "./dist/selection-sort.js"
   },
   "scripts": {
     "build": "tsc -b tsconfig.build.json",

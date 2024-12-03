@@ -20,6 +20,6 @@ export default tseslint.config(
     extends: [tseslint.configs.disableTypeChecked],
   },
   {
-    ignores: ["eslint.config.mjs", "dist"],
-  },
+    ignores: ["dist"],
+  }
 );
